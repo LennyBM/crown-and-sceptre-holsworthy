@@ -1,11 +1,11 @@
-import type { SiteConfig, NavLink } from './types';
+import type { SiteConfig, NavLink } from './types.ts';
 
 export const site: SiteConfig = {
   "slug": "crown-and-sceptre-holsworthy",
   "name": "The Crown & Sceptre",
   "shortName": "Crown & Sceptre",
   "tagline": "A historic Grade II listed free house in the heart of Holsworthy - real ales, home-cooked food, live music and a proper community local",
-  "intro": "Traditional home-made, home-cooked pub food served lunchtime and evening (CAMRA food times Mon-Sun 11:00-14:30 and 18:00-20:30). Food hygiene rating 5 (inspected 15 November 2024). A first-floor comme",
+  "intro": "Traditional home-made, home-cooked pub food served lunchtime and evening (CAMRA food times Mon-Sun 11:00-14:30 and 18:00-20:30). Food hygiene rating 5 (inspected 15 November 2024).",
   "type": "Inn",
   "established": "c.1910",
   "siteUrl": "https://crown-and-sceptre-holsworthy.vercel.app",
@@ -217,25 +217,35 @@ export const site: SiteConfig = {
     "img-00.jpg",
     "img-01.jpg",
     "img-02.jpg",
-    "img-03.jpg",
     "img-04.jpg",
     "img-05.jpg",
-    "img-06.jpg",
-    "img-07.jpg",
-    "img-08.jpg"
+    "img-07.jpg"
   ],
   "hero": "img-00.jpg",
   "featured": [
     "img-01.jpg",
     "img-02.jpg",
-    "img-03.jpg",
     "img-04.jpg",
     "img-05.jpg",
-    "img-06.jpg"
+    "img-00.jpg",
+    "img-07.jpg"
   ],
   "videoUrls": [
     "https://www.facebook.com/61564506373484/reels/"
   ],
+  "focal": {
+    "img-00.jpg": "60% 45%",
+    "img-01.jpg": "65% 35%",
+    "img-02.jpg": "45% 55%",
+    "img-04.jpg": "45% 40%",
+    "img-05.jpg": "50% 65%",
+    "img-07.jpg": "40% 55%"
+  },
+  "design": {
+    "display": "inn",
+    "hero": "anchor",
+    "order": "food-led"
+  },
   "theme": {
     "mode": "light",
     "primary": "#7A1F2B",
